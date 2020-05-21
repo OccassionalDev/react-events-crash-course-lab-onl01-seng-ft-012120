@@ -20,7 +20,13 @@ export default class ChromeBoisDomain extends Component {
    */
    
    handleKeyPress = (e) => {
-     if (e.key === '')
+     if (e.key === 'a') {
+       resize('+');
+     }
+     
+     else if (e.key === 's') {
+       resize('-');
+     }
    }
   
   render() {
