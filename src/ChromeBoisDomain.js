@@ -7,11 +7,6 @@ export default class ChromeBoisDomain extends Component {
   handleMouseMove = (event) => {
      drawChromeBoiAtCoords(event.clientX, event.clientY);
   }
-  
-  /* TODO: Create an event handler which, when fired, invokes the provided
-   * `toggleCycling` function with no arguments. Don't forget the click event
-   * listener that should fire it!
-   */
    
    clickCycleToggle = (e) => {
      toggleCycling();
